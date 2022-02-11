@@ -1,0 +1,18 @@
+.CardGet {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    
+  }
+
+.card {
+    border-width: thin;
+    box-shadow: 0 2px 8px -3px var(--darkgrey);
+    border-radius: 3px;
+}
+
+.card:hover {
+    border: 3px solid #000;
+    border-style: solid;
+    border-color: #dadce0;
+}

@@ -3,7 +3,7 @@ import { TraerPersonaje } from "../services/api";
 import { Card, Button } from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/App.css';
+import '../styles/CardGetter.css';
 
 const CardGetter = () => {
 const [personaje, setPersonaje] = useState();
@@ -21,7 +21,7 @@ async function CallAPI() {
     return (
       <div className="CardGet">
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="card" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={personaje.image} />
         <Card.Body>
           <Card.Title>{personaje.name}</Card.Title>
