@@ -1,7 +1,7 @@
 
 import { CardGetter } from './components/CardGetter';
 import { Header } from './components/Header';
-import './App.css';
+import './styles/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -11,6 +11,9 @@ function App() {
   <div>
     <Header/>
     <CardGetter/>
+    <CardGetter/>
+    <CardGetter/>
+    
   </div>
   );
 }

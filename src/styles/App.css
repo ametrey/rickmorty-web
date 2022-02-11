@@ -1,0 +1,23 @@
+
+
+html {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+
+  
+ 
+ .CardGet {
+   display: flex;
+   justify-content: center;
+   padding-top: 10rem;
+   
+ }
+
+

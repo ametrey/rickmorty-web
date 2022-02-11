@@ -3,7 +3,7 @@ import { TraerPersonaje } from "../services/api";
 import { Card, Button } from "react-bootstrap";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
+import '../styles/App.css';
 
 const CardGetter = () => {
 const [personaje, setPersonaje] = useState();

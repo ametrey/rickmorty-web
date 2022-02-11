@@ -1,0 +1,49 @@
+#logo img {
+    max-width: 50%;
+    padding: 1rem;
+    
+   }
+   
+   header {
+     
+    width: 100%;
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: black;
+     background-size: 100%;
+     z-index: 1000;
+     
+       
+   }
+
+   
+
+   
+ 
+  
+   
+   .nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+    
+  
+  }
+  
+  .nav-list a {
+    
+    color: #1c0515;
+    font-size: 2.2rem;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+   
+  }
+  
+
+   .nav-link:hover {
+       background-color: white;
+      
+   }
