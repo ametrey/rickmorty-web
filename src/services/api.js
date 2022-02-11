@@ -1,5 +1,5 @@
 
-const url = 'https://rickandmortyapi.com/api/character/1';
+const url = 'https://rickandmortyapi.com/api/character/3';
 
 
 async function TraerPersonaje(){

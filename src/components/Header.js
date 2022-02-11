@@ -4,16 +4,9 @@ import '../styles/Header.css';
 const Header = () => {
 
     return (
+        
         <header id="header">
-
-          
-
-
-
             <div id="logo"> <img src={rmlogo} alt="Rick And Morty logo" /></div>
-
-            
-
             <nav className="nav-bar">
                 <ul className="nav-list">
                     <li><a className="nav-link" href="#characters"> Characters</a></li>
@@ -21,11 +14,6 @@ const Header = () => {
                     <li><a className="nav-link" href="#episodes">Episodes</a></li>
                 </ul>
             </nav>
-
-          
-        
-            
-
         </header>
     )
 }
