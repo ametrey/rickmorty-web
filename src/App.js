@@ -1,21 +1,18 @@
 
-import { CardGetter } from './components/CardGetter';
-import { Header } from './components/Header';
-import './styles/App.css'
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import NavbarCustom from './Components/NavBar';
 
 
 
 function App() {
+
   return (
-  <div>
-    <Header/>
-    <CardGetter/>
-    <CardGetter/>
-    <CardGetter/>
-    
-  </div>
-  );
+    <NavbarCustom/>
+  )
+
 }
+
 
 export default App;

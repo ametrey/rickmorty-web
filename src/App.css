@@ -1,0 +1,24 @@
+
+
+html {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+  
+ 
+
+
+
