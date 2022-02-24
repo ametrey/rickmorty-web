@@ -1,24 +1,18 @@
-import { Card, Button } from "react-bootstrap";
+import Item from "../Item";
+import Paginator from "../Paginator/Paginator";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './ItemList.css';
 
-export default function ItemList({ character }) {
-  return (
-    <Card style={{ width: "18rem" }} className="item animate__animated animate__fadeIn">
-      <Card.Img variant="top" src={character.image} />
-      <Card.Body>
-        <Card.Title>{character.name}</Card.Title>
-        <Card.Text>
-          Species: {character.species}
-          <br></br>
-          Genre: {character.gender}
-          <br></br>
-          Status: {character.status}
-        </Card.Text>
-        <Button variant="dark">Details</Button>
-      </Card.Body>
-    </Card>
-  );
+export default function ItemList ({props, setPage, page,info}) {
+    return(
+        <div>
+        <div className="container">
+            {props?.map((object, key) => (
+                <Item character={object} key={key}>
+                    {" "}
+                </Item>
+            ))}
+        </div>
+        <Paginator setPage={setPage} page={page} maxpages={info} />
+    </div>
+    )
 }
-

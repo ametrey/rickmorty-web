@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { getLocations} from "../../services/api";
-import Item from "../Item/Item";
+import ItemList from "../ItemList/ItemList";
+
 
 export default function Locations() {
 
@@ -23,7 +24,7 @@ export default function Locations() {
         return <div>No hay nada</div>;
     } else {
         return (
-          <Item props={locations} setPage={setPage} page={page} info={info}/>
+          <ItemList props={locations} setPage={setPage} page={page} info={info}/>
         );
     }
 }

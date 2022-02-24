@@ -9,7 +9,6 @@ import Locations from './Components/Locations/Locations';
 
 
 
-
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>

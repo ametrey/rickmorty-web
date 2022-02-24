@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getCharacters } from "../../services/api";
-import Item from "../Item/Item";
+import ItemList from "../ItemList/ItemList";
 
 export default function Characters() {
 
@@ -23,7 +23,7 @@ export default function Characters() {
         return <div>No hay nada</div>;
     } else {
         return (
-          <Item props={characters} setPage={setPage} page={page} info={info}/>
+          <ItemList props={characters} setPage={setPage} page={page} info={info}/>
         );
     }
 }
