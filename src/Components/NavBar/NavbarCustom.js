@@ -12,9 +12,9 @@ export default function NavbarCustom({ children }) {
             <Navbar.Brand href="#home">RickAndMorty</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="#features">Home</Nav.Link>
-              <Nav.Link><Link to='/characters'>Characters</Link></Nav.Link>
-              <Nav.Link><Link to='/locations'>Locations</Link></Nav.Link>
-              <Nav.Link href="#pricing">Episodes</Nav.Link>
+              <Nav.Link href='/characters' className="link">Characters</Nav.Link>
+              <Nav.Link href='/locations' className="link">Locations</Nav.Link>
+              <Nav.Link href="/episodes">Episodes</Nav.Link>
             </Nav>
           </Container>
         </Navbar>

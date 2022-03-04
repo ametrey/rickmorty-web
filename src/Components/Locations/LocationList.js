@@ -1,15 +1,18 @@
-import Item from "../Item";
+
 import Paginator from "../Paginator/Paginator";
+import LocationCard from "./LocationCard";
 
 
-export default function ItemList ({props, setPage, page,info}) {
+export default function LocationList ({props, setPage, page,info}) {
     return(
         <div>
         <div className="container">
             {props?.map((object, key) => (
-                <Item props={object} key={key}>
+                
+                <LocationCard props={object} key={key}>
                     {" "}
-                </Item>
+                </LocationCard>
+                
             ))}
         </div>
         <Paginator setPage={setPage} page={page} maxpages={info} />

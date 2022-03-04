@@ -1,15 +1,18 @@
-import Item from "../Item";
+
 import Paginator from "../Paginator/Paginator";
+import EpisodeCard from "./EpisodeCard";
 
 
-export default function ItemList ({props, setPage, page,info}) {
+export default function EpisodeList ({props, setPage, page,info}) {
     return(
         <div>
         <div className="container">
             {props?.map((object, key) => (
-                <Item props={object} key={key}>
+                
+                <EpisodeCard props={object} key={key}>
                     {" "}
-                </Item>
+                </EpisodeCard>
+                
             ))}
         </div>
         <Paginator setPage={setPage} page={page} maxpages={info} />

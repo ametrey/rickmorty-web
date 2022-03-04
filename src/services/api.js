@@ -40,4 +40,4 @@ async function getLocations(pag) {
     return response.json();
   }
 
-export { getCharacters, getCharactersById, getLocations, getLocationsById };
+export { getCharacters, getCharactersById, getLocations, getLocationsById, getEpisodes, getEpisodesById };

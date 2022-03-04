@@ -1,10 +1,6 @@
-.item {
-    margin-left: 5px;
-    margin-bottom: 5px;
-    border: 1px solid black;
-}
 
-  .card {
+
+.card {
     border-width: thin;
     box-shadow: 0 2px 8px -3px var(--darkgrey);
     border-radius: 3px;
